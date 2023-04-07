@@ -99,4 +99,4 @@ async def mailbox(client,message):
         await message.edit_message_text('Session Closed✅')
 app.run()
 
-# Stay tuned for more : Instagram[@riz.4d]
+# Stay tuned for more : Telegram[@SigmaMirrorz]
