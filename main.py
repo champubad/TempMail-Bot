@@ -28,7 +28,7 @@ msg_buttons=InlineKeyboardMarkup(
 
 # Fillout The variables in Config.py further queries @SigmaMirrorz 0n telegram
 
-BOT_TOKEN = os.environ.get("5943156189:AAFcIIvwY3Okibdzmob5jiajSjuqZdm_xZM")
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 API_ID = int(os.environ.get("API_ID"))
 API_HASH = os.environ.get("API_HASH")
 
