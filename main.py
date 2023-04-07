@@ -1,6 +1,6 @@
 # copyright 2020-22 @Mohamed Rizad
-# Telegram @riz4d
-# Instagram @riz.4d
+# Updates🔥 @SigmaMirrorz
+# Off Topic ❤ @Sigma_Off_Topic
 from pyrogram import *
 import requests as re
 
@@ -26,9 +26,9 @@ msg_buttons=InlineKeyboardMarkup(
                              ])
 
 
-# Fillout The variables in Config.py further queries @riz4d 0n telegram
+# Fillout The variables in Config.py further queries @SigmaMirrorz 0n telegram
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = os.environ.get("5943156189:AAFcIIvwY3Okibdzmob5jiajSjuqZdm_xZM")
 API_ID = int(os.environ.get("API_ID"))
 API_HASH = os.environ.get("API_HASH")
 
@@ -40,7 +40,7 @@ app=Client('Temp-Mail Bot',
 email=''
 @app.on_message(filters.command('start'))
 async def start_msg(client,message):
-    await message.reply("**Hey "+message.from_user.first_name+" !!**\n @mysterymailbot is a free service that allows to generates and receive emails at a temporary address that self-destructed after a certain time elapses.\n\n**__ How It Safe's You??**__\n- Using the temporary mail allows you to completely protect your real mailbox against the loss of personal information. Your temporary e-mail address is completely anonymous. Your details: information about your person and users with whom you communicate, IP-address, e-mail address are protected and completely confidential.\n\nFurther Queris @riz4d🌚")
+    await message.reply("**Hey "+message.from_user.first_name+" !!**\n @SigmaxMailBot is a free service that allows to generates and receive emails at a temporary address that self-destructed after a certain time elapses.\n\n**__ How It Safe's You??**__\n- Using the temporary mail allows you to completely protect your real mailbox against the loss of personal information. Your temporary e-mail address is completely anonymous. Your details: information about your person and users with whom you communicate, IP-address, e-mail address are protected and completely confidential.\n\nFurther Queris @riz4d🌚")
     await message.reply("**Generate a Email Now❕**",
                         reply_markup=buttons)
 @app.on_callback_query()
